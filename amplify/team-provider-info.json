@@ -17,7 +17,10 @@
         "oslashclonebackend6a7ee79f": {}
       },
       "function": {
-        "oslashclonebackend06792cc106792cc1PostConfirmation": {}
+        "oslashclonebackend06792cc106792cc1PostConfirmation": {
+          "deploymentBucketName": "amplify-oslashclonebackend-dev-22644-deployment",
+          "s3Key": "amplify-builds/oslashclonebackend06792cc106792cc1PostConfirmation-62354c5362532f413352-build.zip"
+        }
       }
     }
   }

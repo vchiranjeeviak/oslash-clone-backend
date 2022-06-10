@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "oslashclonebackend",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/home/chiranjeevi/Desktop/oslash-clone-backend/amplify/backend/api/oslashclonebackend/schema.graphql",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authoslashclonebackend6a7ee79f"
+    }
+  }
+}

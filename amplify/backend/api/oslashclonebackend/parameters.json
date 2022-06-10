@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "oslashclonebackend",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authoslashclonebackend6a7ee79f",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

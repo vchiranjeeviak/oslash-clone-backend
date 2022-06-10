@@ -13,7 +13,8 @@
     },
     "categories": {
       "auth": {
-        "oslashclonebackend06792cc106792cc1": {}
+        "oslashclonebackend06792cc106792cc1": {},
+        "oslashclonebackend6a7ee79f": {}
       },
       "function": {
         "oslashclonebackend06792cc106792cc1PostConfirmation": {}

@@ -1,0 +1,22 @@
+type User
+  @model
+  @auth(rules: [{ allow: owner, ownerField: "username", operations: [read] }]) {
+  id: ID!
+  username: String!
+  email: AWSEmail!
+  createdAt: AWSDateTime!
+}
+
+type Shortcut
+  @model
+  @auth(rules: [{ allow: owner, ownerField: "username" }])
+  @searchable {
+  id: ID!
+  userID: String!
+    @primaryKey(sortKeyFields: ["shortlink", "url", "description"])
+  shortlink: String!
+  url: AWSURL!
+  description: String!
+  tags: [String]
+  createdAt: AWSDateTime!
+}

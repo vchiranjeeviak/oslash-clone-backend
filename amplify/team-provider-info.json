@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-oslashclonebackend-dev-22644-authRole",
+      "UnauthRoleArn": "arn:aws:iam::007476016145:role/amplify-oslashclonebackend-dev-22644-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::007476016145:role/amplify-oslashclonebackend-dev-22644-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-oslashclonebackend-dev-22644-deployment",
+      "UnauthRoleName": "amplify-oslashclonebackend-dev-22644-unauthRole",
+      "StackName": "amplify-oslashclonebackend-dev-22644",
+      "StackId": "arn:aws:cloudformation:ap-south-1:007476016145:stack/amplify-oslashclonebackend-dev-22644/db666c70-e8ff-11ec-85da-022bb8129d34",
+      "AmplifyAppId": "d3j73zrvws2d88"
+    },
+    "categories": {
+      "auth": {
+        "oslashclonebackend06792cc106792cc1": {}
+      },
+      "function": {
+        "oslashclonebackend06792cc106792cc1PostConfirmation": {}
+      }
+    }
+  }
+}
